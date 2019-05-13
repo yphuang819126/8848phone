@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>8848钛金手机</title>
+		<link rel="shortcut icon" href="img/favicon.jpg" />
+		<link rel="stylesheet" type="text/css" href="css/styleSheet.css"/>
+	</head>
+	<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+
+		
+		$.get("js/8848-0.json",function  (data) {
+			$(".logo").attr("src",data.logo)
+			$.each(data.navTag,function  (v,t) {
+				$("<a href='' class='aTag'><li></li></a>").html(t).appendTo($(".ulTag"))
+			})
+		})
+	
+	</script>
+	<body>
+		<div class="all">
+			<div style="height: 90px;width: 100%;background-color: #333333;" class="M-header">
+				<div class="row clearfix">
+					<a href="#" class="nav left"></a>
+				</div>
+				<img class="logo"/>
+				<ul class="ulTag">
+	
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
