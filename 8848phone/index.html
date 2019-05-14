@@ -7,27 +7,80 @@
 		<link rel="stylesheet" type="text/css" href="css/styleSheet.css"/>
 	</head>
 	<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
-	<script type="text/javascript">
-
-		
-		$.get("js/8848-0.json",function  (data) {
-			$(".logo").attr("src",data.logo)
-			$.each(data.navTag,function  (v,t) {
-				$("<a href='' class='aTag'><li></li></a>").html(t).appendTo($(".ulTag"))
-			})
-		})
-	
-	</script>
+	<script src="js/javascript.js" type="text/javascript" charset="utf-8"></script>
 	<body>
+		<!--整体-->
 		<div class="all">
-			<div style="height: 90px;width: 100%;background-color: #333333;" class="M-header">
+			<!--导航栏-->
+			<div class="M-header">
 				<div class="row clearfix">
-					<a href="#" class="nav left"></a>
+					<!--Logo-->
+					<a href="#" class="logo left"></a>
+					<!--导航栏右侧-->
+					<div class="nav left">
+						<ul class="clearfix"></ul>
+					</div>
 				</div>
-				<img class="logo"/>
-				<ul class="ulTag">
-	
-				</ul>
+			</div>
+			<div class="M-home row">
+				<div class="video-module">
+					<div class="video-body" node-type="video-clear">
+						<div class="video-body">
+							<div class="pic-wrapper" node-type="video-container">
+								<div class="picbox active">
+									<!--[if lt IE 9]>
+									<div class="pic"><img src="/public/m3/images/m4video/3.jpg" /></div>
+									<![endif]-->
+									<div class="video"><video id="v1" src="video/wangshi.mp4" width="1200" height="675" preload></video></div>
+									<div class="text"><img src="img/wangshi.png" />
+										<div class="btn">
+											<a href="/m3/brand/3" class="inline-block" onclick="_hmt.push(['_trackEvent', '了解王石与8848的故事', '了解王石与8848的故事'])">了解王石与8848的故事</a>
+											<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent', 'm5-video-wangshi', 'm5-video-wangshi'])" video-href="video/wangshi.mp4" class="play inline-block">观看视频</a>
+										</div>
+									</div>
+								</div>
+								<div class="picbox">
+									<div class="pic"><a href="/m5"><img src="img/m5.jpg" /></a></div>
+								</div>
+								<div class="picbox">
+									<div class="pic"><a href="/xianglong"><img src="img/dragon.jpg" /></a></div>
+								</div>
+								<div class="picbox">
+									<!--[if lt IE 9]>
+									<div class="pic"><img src="img/2.jpg" /></div>
+									<![endif]-->
+									<div class="video"><video id="v3" src="video/keji.mp4" width="1200" height="675" preload></video></div>
+									<div class="text"><img src="img/keji.png" />
+										<div class="btn">
+											<a href="/m5" class="inline-block" onclick="_hmt.push(['_trackEvent', '了解全新M5', '了解全新M5'])">了解全新M5</a>
+											<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent', 'm5-video-keji', 'm5-video-keji'])" video-href="video/keji.mp4" class="play inline-block">观看视频</a>
+										</div>
+									</div>
+								</div>
+								<div class="picbox">
+									<!--[if lt IE 9]>
+									<div class="pic"><img src="img/2.jpg" /></div>
+									<![endif]-->
+									<div class="video"><video id="v4" src="video/2.mp4" width="1200" height="675" preload></video></div>
+									<div class="text"><img src="img/text_2.png" />
+										<div class="btn">
+											<a href="/m3/brand/3" class="inline-block" onclick="_hmt.push(['_trackEvent', '了解全新M5', '了解全新M5'])">了解全新M5</a>
+											<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent', 'm4-video2', 'm4-video2'])" video-href="video/2.mp4" class="play inline-block">观看视频</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							</div>
+						</div>
+						<div class="video-nav">
+							
+						</div>
+					</div>
+				</div>
+				<div class="feature-content">
+					
+				</div>
 			</div>
 		</div>
 	</body>
