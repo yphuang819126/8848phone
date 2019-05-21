@@ -108,7 +108,7 @@
 	    left: 0;
 	    top: 0;
 	    overflow: hidden;
-	    display: none;
+	    display:inline-block;
     }
     .video-module .video-body .pic-wrapper .picbox .video {
 	    position: absolute;
