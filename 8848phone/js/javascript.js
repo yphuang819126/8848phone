@@ -1,5 +1,15 @@
 $(function(){
 	initPage();
+	$.ajax({
+		type:"get",
+		url:"js/new_file01.json",
+		async:true,
+		success:function(data){
+			$.each(data.nav, function(i,t) {
+				$(".clearfix li:eq("+i+") a").html(t);
+			});
+		}
+	});
 });
 
 $(window).resize(function(){
