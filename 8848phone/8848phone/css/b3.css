@@ -1,0 +1,76 @@
+.M-brand .b3 .article {
+	
+	width: 1200px;
+}
+.M-brand .b3 .article .title {
+	text-align: center;
+}
+.M-brand .b3 .article .content {
+	color: #D9D9D9;
+}
+.M-brand .b3 .article.first-child .content {
+	margin: 0 auto;
+	padding-top: 70px;
+	width: 820px;
+	text-align: center;
+}
+.M-brand .b3 .article .content .line {
+	background-color: #D9D9D9;
+	margin: 0 auto 20px;
+	width: 32px;
+	height: 1px;
+}
+.M-brand .b3 .article .content .title {
+	margin-bottom: 20px;
+	font-size: 32px;
+	line-height: 48px;
+}
+.M-brand .b3 .article .content .description {
+	font-size: 17px;
+	line-height: 30px;
+}
+.M-brand .b3 .article.first-child .icon img {
+	margin-top: 30px;
+	width: 1200px;
+}
+.M-brand .b3 .article.first-child .brief {
+	margin-top: 10px;
+	color: #D9D9D9;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: right;
+}
+.M-brand .b3 .article.middle {
+	padding: 70px 0;
+	border-top: 1px #2B2B2B solid;
+	border-bottom: 1px #2B2B2B solid;
+}
+.M-brand .b3 .article.middle .content {
+	margin: 0 auto;
+	width: 820px;
+}
+.M-brand .b3 .article.middle .icon {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.M-brand .b3 .feature-article {
+	margin-top: -45px;
+}
+.M-brand .b3 .article.last-child {
+	margin-top: 50px;
+}
+.M-brand .b3 .article.last-child .content {
+	margin: 0 auto;
+	width: 820px;
+}
+.M-brand .b3 .article.last-child .icon {
+	margin: 50px 0;
+}
+.M-brand .b3 .article.last-child .icon img {
+	width: 1200px;
+}
+.M-brand .b3 .article.col2 .content {
+	padding-top: 30px;
+	padding-right: 60px;
+	
+}
